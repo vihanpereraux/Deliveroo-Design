@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
+
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #F6CE44;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 3%;
+}
+
+.navbar-nav li a{
+    color: #0055A0;
+    font-weight: 400;
+    font-size: 2.15vh;
+}
+
+.navbar-brand{
+    margin-left: 3%;
+    color: #0055A0;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.nav-item{
+    font-family: 'Fira Sans';
+    font-weight: 300;
+}
+
+.nav-link {
+    width: 130px;
+    text-align: center;
+}
+
+#banner-section{
+    margin-top: 20vh;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.banner-bg{
+    width: 100%;
+    height: 80vh;
+    background-image: url('Assets/Banner Image.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#banner-heading h1{
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    font-size: 6vh;
+}
+
+#banner-description{
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 2.2vh;
+    margin-top: 4%; 
+    margin-right: 6%; 
+}
+
+.btn{
+    margin-top: 1.5%;
+    background-color: #0055A0;
+    border-radius: 0px;
+    width: 17.5vh;
+    height: 6vh;
+}
+
+.btn h6{
+    font-weight: 400;
+    font-size: 2.0vh;
+    font-family: 'Fira Sans';
+    padding-top: 8%;
+}
+
+
+
+/* Services Area */
+.service-items-block{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#heading-one{
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Fira Sans';
+    color: #0055A0;
+    font-size: 2.9vh;
+}
+
+#heading-two{
+    text-align: center;
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    margin-top: 1%;
+    margin-bottom: 6%;
+    font-size: 5vh;
+}
+
+.service-images{
+    width: 20%;
+}
+
+.service-images-clothes{
+    width: 15%;
+}
+
+.service-items{
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 2.5vh;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15%;
+}
+
+.service-items-heading{
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 3.4vh;
+    margin-bottom: 3%;
+}
+
+.second-row-items{
+    margin-top: 3%;
+}
+
+
+/* About Us Banner Section */
+.banner-background{
+    background-image: url('Assets/About Us Banner.png');
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+} 
+
+#aboutus-banner-content{
+    margin-top: 35vh;
+    margin-left: 5%;
+}
+
+#aboutus-banner-content h5{
+    color: #0055A0;
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    font-size: 3vh;
+    margin-top: 4%;
+}
+
+#ratings-text{
+    color: #263238;
+}
+.about-us-ratings{
+    width: 20%;
+    margin-left: 3%;
+}
+
+#aboutus-banner-content h2{
+    color: #263238;
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    font-size: 6vh;
+    margin-top: 3%;
+}
+
+#aboutus-banner-content p{
+    color: #263238;
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 2.4vh;
+    margin-top: 4%;
+}
+
+
+/* Delivery Process Area */
+.delivery-process-block{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#delivery-heading-one{
+    text-align: center;
+    margin-top: -2%;
+    font-family: 'Fira Sans';
+    color: #0055A0;
+    font-size: 2.9vh;
+}
+
+#delivery-heading-two{
+    text-align: center;
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    margin-top: 1%;
+    margin-bottom: 9%;
+    font-size: 5vh;
+}
+
+.step-01{
+    width: 50%;
+}
+.step-02{
+    width: 70%;
+    padding-top: 6%;
+}
+.step-03{
+    width: 70%;
+    padding-top: 9%;
+}
+.step-04{
+    width: 50%;
+}
+.arrow-icon{
+    padding-top: 65%;
+    margin-right: 2%;
+    width: 100%;
+}
+
+.step-text{
+    font-family: 'Fira Sans';
+    color: #263238;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 7%;
+    font-size: 3.4vh;
+}
+
+
+/* Testimonial Area */
+#testimonial-heading-one{
+    text-align: center;
+    margin-top: -2%;
+    font-family: 'Fira Sans';
+    color: #0055A0;
+    font-size: 2.9vh;
+    margin-top: 10%;
+}
+
+#testimonial-heading-two{
+    text-align: center;
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    margin-top: 1%;
+    margin-bottom: 6%;
+    font-size: 5vh;
+}
+
+.testimonial-block{
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.card-text{
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 2.2vh;
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.name{
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    font-size: 2.4vh;
+    text-align: center;
+    margin-top: 8%;
+}
+.profession{
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    font-size: 2.2vh;
+    text-align: center;
+    margin-top: 2%;
+    color: #0055A0;
+}
+
+.ratings-img{
+    width: 50%;
+    margin-top: 10%;
+}
+
+
+/* Contact Us banner Area */
+.contactus-banner-background{
+    background-image: url('Assets/Contact Us Banner.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#contact-us-section{
+    margin-top: 40vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#contact-us-upper-heading{
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    color: #0055A0;
+    font-size: 3vh;
+}
+
+#contact-us-heading h1{
+    font-family: 'Fira Sans';
+    font-weight: 600;
+    font-size: 6vh;
+}
+
+#contact-us-description{
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 2.3vh;
+    margin-top: 4%;  
+}
+
+.contact-us-btn{
+    margin-top: 3.5%;
+    background-color: #0055A0;
+    border-radius: 0px;
+    width: 17.5vh;
+    height: 6vh;
+}
+
+.contact-us-btn h6{
+    font-weight: 400;
+    font-size: 2.0vh;
+    font-family: 'Fira Sans';
+    padding-top: 8%;
+}
+
+
+/* Sponser Section */
+.sponser-block{
+    padding-top: 1.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 1.5%;
+}
+
+.sponser-img-01{
+    width: 80%;
+}
+.sponser-img-02{
+    width: 70%;
+}
+.sponser-img-03{
+    width: 55%;
+}
+.sponser-img-04{
+    width: 75%;
+}
+
+
+/* Footer Section */
+footer {
+    background-color: #263238;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+#footer-heading{
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    color: white;
+    font-size: 4vh;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 13%;
+}
+
+#footer-description{
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 2vh;
+    text-align: left;
+    margin-right: 25%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+#store-icons{
+    display: flex;
+    align-items: left;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+
+.play-store{
+    font-size: 3.2vh;
+}
+.app-store{
+    font-size: 3.2vh;
+    margin-left: 0.5%;
+}
+
+#qk-links-heading{
+    margin-top: 35%;
+    margin-bottom: 8.3%;
+    text-align: left;
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    font-size: 2.6vh;
+}
+.qk-links{
+    text-align: left;
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 1.9vh;
+}
+
+.copyrt-text-bg{
+    background-color: #222F36;
+    margin-top: -1%;
+}
+#copyrt-text{
+    text-align: center;
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 2.1vh;
+    opacity: 60%;
+    margin-top: 1%;
+    color: white;
+}
